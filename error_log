@@ -1,0 +1,24 @@
+[30-Apr-2025 05:13:48 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/fnkjyinw/public_html/entry/edit-website.php on line 106
+[30-Apr-2025 05:13:48 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/fnkjyinw/public_html/entry/edit-website.php on line 106
+[30-Apr-2025 05:13:48 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/fnkjyinw/public_html/entry/edit-website.php on line 106
+[06-Jun-2025 04:09:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/fnkjyinw/public_html/entry/db.php:12
+Stack trace:
+#0 /home/fnkjyinw/public_html/entry/db.php(12): mysqli->__construct('localhost', 'root', '', 'entry')
+#1 /home/fnkjyinw/public_html/entry/income.php(7): include('/home/fnkjyinw/...')
+#2 {main}
+  thrown in /home/fnkjyinw/public_html/entry/db.php on line 12
+[06-Jun-2025 05:04:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/fnkjyinw/public_html/entry/tasks-ajax.php:106
+Stack trace:
+#0 /home/fnkjyinw/public_html/entry/tasks-ajax.php(106): mysqli_stmt->bind_param('sisssdssii', 'Dilmog.com', '4', 'The logo for lo...', '2025-06-05', 'completed', '', 'paid', '16', 1)
+#1 {main}
+  thrown in /home/fnkjyinw/public_html/entry/tasks-ajax.php on line 106
+[06-Jun-2025 05:04:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/fnkjyinw/public_html/entry/tasks-ajax.php:106
+Stack trace:
+#0 /home/fnkjyinw/public_html/entry/tasks-ajax.php(106): mysqli_stmt->bind_param('sisssdssii', 'Dilmog.com', '4', 'The logo for lo...', '2025-06-05', 'completed', '', 'paid', '16', 1)
+#1 {main}
+  thrown in /home/fnkjyinw/public_html/entry/tasks-ajax.php on line 106
+[11-Jun-2025 03:23:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/fnkjyinw/public_html/entry/tasks-ajax.php:106
+Stack trace:
+#0 /home/fnkjyinw/public_html/entry/tasks-ajax.php(106): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/fnkjyinw/public_html/entry/tasks-ajax.php on line 106
